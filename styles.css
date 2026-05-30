@@ -632,71 +632,6 @@ footer {
     color: var(--white);
 }
 
-/* Maintenance Banner */
-.maintenance-banner {
-    background: linear-gradient(90deg, #f9d423 0%, #ff4e50 100%);
-    color: #1a1a1a;
-    padding: 14px 0;
-}
-
-.maintenance-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.maintenance-message {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    min-width: 0;
-}
-
-.maintenance-icon {
-    font-size: 28px;
-    color: #1a1a1a;
-}
-
-.maintenance-banner strong {
-    display: block;
-    font-size: 18px;
-    margin-bottom: 4px;
-}
-
-.maintenance-banner p {
-    margin: 0;
-    color: #1a1a1a;
-    opacity: 0.9;
-}
-
-.maintenance-button {
-    background: rgba(255,255,255,0.95);
-    color: #1a1a1a;
-    padding: 12px 24px;
-    border-radius: 50px;
-    font-weight: 700;
-}
-
-.maintenance-button:hover {
-    background: #ffffff;
-    color: #1a1a1a;
-}
-
-@media (max-width: 768px) {
-    .maintenance-content {
-        flex-direction: column;
-        align-items: stretch;
-        text-align: center;
-    }
-
-    .maintenance-button {
-        width: 100%;
-    }
-}
-
-/* Responsive */
 @media (max-width: 768px) {
     .top-bar .container {
         flex-direction: column;
@@ -751,3 +686,4 @@ footer {
         font-size: 28px;
     }
 }
+
