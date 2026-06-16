@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="grad4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#27ae60"/>
+      <stop offset="100%" stop-color="#1e8449"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="#f0f9f4"/>
+  <rect x="270" y="130" width="660" height="600" rx="45" fill="url(#grad4)"/>
+  <rect x="320" y="180" width="560" height="480" rx="25" fill="#ffffff" opacity="0.95"/>
+  <circle cx="450" cy="280" r="60" fill="#d4edda"/>
+  <circle cx="750" cy="280" r="60" fill="#d4edda"/>
+  <rect x="380" y="380" width="420" height="200" rx="15" fill="#c8e6c9"/>
+  <text x="600" y="110" font-family="Poppins,sans-serif" font-size="36" fill="#1e8449" text-anchor="middle" font-weight="700">Bathroom Cleaning</text>
+</svg>
