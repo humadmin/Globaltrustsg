@@ -3,13 +3,15 @@ const hamburger = document.getElementById('hamburger');
 const navLinks = document.getElementById('navLinks');
 
 hamburger.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
+    const isOpen = navLinks.classList.toggle('active');
+    hamburger.setAttribute('aria-expanded', isOpen.toString());
 });
 
 // Close mobile menu when clicking a link
 document.querySelectorAll('.nav-links a').forEach(link => {
     link.addEventListener('click', () => {
         navLinks.classList.remove('active');
+        hamburger.setAttribute('aria-expanded', 'false');
     });
 });
 
@@ -48,7 +50,7 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, observerOptions);
 
-document.querySelectorAll('.service-card, .why-card, .stat-item').forEach(el => {
+document.querySelectorAll('.service-card, .why-card, .stat-item, .review-card').forEach(el => {
     el.style.opacity = '0';
     el.style.transform = 'translateY(20px)';
     el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';

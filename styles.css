@@ -173,8 +173,22 @@ nav {
 .hero-buttons {
     display: flex;
     gap: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     flex-wrap: wrap;
+}
+
+.hero-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.hero-badges span {
+    background: rgba(255,255,255,0.15);
+    color: rgba(255,255,255,0.95);
+    padding: 10px 16px;
+    border-radius: 999px;
+    font-size: 14px;
 }
 
 .btn {
@@ -550,8 +564,14 @@ nav {
 
 .contact-info h3 {
     font-size: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: var(--dark);
+}
+
+.contact-note {
+    color: var(--gray);
+    margin-bottom: 20px;
+    line-height: 1.7;
 }
 
 .info-item {
